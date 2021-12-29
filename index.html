@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- font awesom  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Template 1</title>
+</head>
+
+<body>
+    <nav class="Navbar sticky-top">
+        <a href="/" class="logo">Aryan</a>
+        <input type="checkbox" id="navmenu">
+        <label for="navmenu">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul class="nav-links">
+            <li class="nav-links">
+                <a href="#main">Home</a>
+            </li>
+            <li class="nav-links">
+                <a href="#about">About</a>
+            </li>
+            <li class="nav-links">
+                <a href="#signup">SignIn</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="main" class="container-fluid mb-5 bg-light text center pt-5">
+        <div class="container m-5 p-5">
+            <h1 class="fw-bolder"><strong>I <span id="textType" class="text-danger "></span></strong></h1>
+            <h5>Responsive website using HTML, CSS & JAVASCRIPT</h5>
+            <h5>Backhand of Website using PHP & MySql</h5>
+            <a href="#about" class="btn btn-outline-danger">Go Down</a>
+        </div>
+    </div>
+
+    <div class="container-fluid p-3">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="container bg-light mx-auto my-3 py-3">
+        <h1 id="about" class="text-start fw-bold border1">About Me</h1>
+        <hr>
+        <div class="card mb-3 mx-auto" style="width: 100%">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="images/img.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">I am Aryan Kodinya</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam blanditiis
+                            hic iure ipsum rerum architecto veritatis officia doloremque assumenda error quas ab
+                            accusamus, facilis expedita adipisci, tenetur corporis dicta quod libero consectetur alias
+                            delectus laudantium aliquid id. Molestiae, doloribus asperiores.</p>
+                        <p class="card-text text-end"><small class="text-muted">by Aryan</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h1 id="about" class="text-center fw-bold">My Skills</h1>
+        <div class="row py-3 mx-auto">
+            <div class="col-sm-10 col-md-6 col-lg-4 mb-2">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Languages
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">HTML, CSS & JAVASCRIPT</h5>
+                        <p class="card-text">I have commad over these languages to build your website, you can trust on
+                            me for building your website.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Best Work
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-4 mb-2">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Frontend Frameworks
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">REACT JS</h5>
+                        <p class="card-text">I have experience in creating website using React JS, Since it is The Most
+                            popular framework of JavaScript to built single page Application/Website like youtube and
+                            other.</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Best Work
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-4 mb-2">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Backhand
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">NODE JS & PHP</h5>
+                        <p class="card-text">I can use PHP as well as Node JS as backhand technology for your website or
+                            Web App</p>
+                    </div>
+                    <div class="card-footer text-muted">
+                        Best Work
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <form class="container mx-auto w-75 my-3 bg-light p-3">
+        <h1 id="signup" class="text-start fw-bold border1">Sign Up</h1>
+        <hr>
+        <div class="row mb-3">
+            <label for="inputname" class="col-sm-2 col-form-label fw-bolder">Name</label>
+            <div class="col-sm-10">
+                <input type="text" name="uname" class="form-control" id="inputname" placeholder="Username">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label fw-bolder">Email</label>
+            <div class="col-sm-10">
+                <input type="email" name="mail" class="form-control" id="inputEmail3" placeholder="abc@gmail.com">
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label fw-bolder">Password</label>
+            <div class="col-sm-10">
+                <input type="password" name="pass" class="form-control" id="inputPassword3" placeholder="password">
+            </div>
+        </div>
+        <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0 fw-bolder">Gender</legend>
+            <div class="col form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                    Male
+                </label>
+            </div>
+            <div class="col form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                    Female
+                </label>
+            </div>
+            <div class="col form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                    Other
+                </label>
+            </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary px-5 mx-2">Sign Up</button>
+        <button type="reset" class="btn btn-primary px-5 mx-2">Reset</button>
+    </form>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- type.js  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('#textType', {
+            strings: ['am a Web Devloper.', 'will Provide you Best Web Design.', 'am a full Stack Web Devloper.'],
+            typeSpeed: 100,
+            backSpeed: 70,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
